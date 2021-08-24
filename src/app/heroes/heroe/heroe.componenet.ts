@@ -10,7 +10,7 @@ export class HeroeComponent {
   nombre: String = 'Iroman';
   edad: number = 45;
 
-  //get
+  //get- retorna en mayuscula el nombre
   get nombreCapitalizado(): string {
     return this.nombre.toUpperCase();
   }

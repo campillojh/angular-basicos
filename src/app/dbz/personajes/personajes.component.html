@@ -1,0 +1,12 @@
+<!-- Codigo cortado del main-page.component.html para el comp.hijo -->
+
+<p>Personajes -Hijo</p>
+
+<h3>Personajes</h3>
+<hr />
+<ul>
+  <li *ngFor="let heroe of personajes">
+    {{ heroe.nombre }} - {{ heroe.poder | number }}
+  </li>
+</ul>
+<!-- recorro el arreglo con ngFor -->
